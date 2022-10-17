@@ -1,5 +1,5 @@
 .col-lg-6 {
-  background-color: #41B404;
+  background-color: #28a745;
   color:white;
 }
 /* Space out content a bit */
@@ -67,6 +67,7 @@ body {
   padding: 14px 24px;
   font-size: 21px;
   color: white;
+  background-color: #28a745;
 }
 
 /* Supporting marketing content */
