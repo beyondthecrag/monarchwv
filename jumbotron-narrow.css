@@ -1,10 +1,12 @@
 .col-lg-6 {
-  background-color: #90EE90;
+  background-color: #41B404;
+  color:white;
 }
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  color:white;
   background-color: #171717;
 }
 
@@ -14,18 +16,21 @@ body {
 .footer {
   padding-right: 15px;
   padding-left: 15px;
+  color:white;
 }
 
 /* Custom page header */
 .header {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
+  color:white;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
+  color:white;
 }
 
 /* Custom page footer */
@@ -39,6 +44,7 @@ body {
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
+    color:white;
     background-color: #171717;
   }
 }
@@ -66,9 +72,11 @@ body {
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
+  color:white;
 }
 .marketing p + h4 {
   margin-top: 28px;
+  color:white;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -79,14 +87,17 @@ body {
   .footer {
     padding-right: 0;
     padding-left: 0;
+    color:white;
   }
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
+    color:white;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
     background-color: #5C5C5C;
+    color:white;
   }
 }
