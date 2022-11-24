@@ -4,47 +4,70 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://monarchwv.org/</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://monarchwv.org/index.html</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <loc>https://monarchwv.org/index</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://monarchwv.org/mealplan.html</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <loc>https://monarchwv.org/mealplan</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://monarchwv.org/morgantownoptions.html</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <loc>https://monarchwv.org/morgantownoptions</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://monarchwv.org/fairmontoptions.html</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <loc>https://monarchwv.org/fairmontoptions</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://monarchwv.org/art.html</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <loc>https://monarchwv.org/charlestownoptions</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://monarchwv.org/reads.html</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <loc>https://monarchwv.org/shepherdstownoptions</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://monarchwv.org/fowl.html</loc>
-  <lastmod>2022-10-09T00:31:53+00:00</lastmod>
+  <loc>https://monarchwv.org/berkeleyspringsoptions</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://monarchwv.org/charlestonoptions</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://monarchwv.org/harpersferryoptions</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://monarchwv.org/art</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://monarchwv.org/reads</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://monarchwv.org/fowl</loc>
+  <lastmod>2022-11-24T03:22:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
