@@ -102,12 +102,13 @@ body {
     color:#262626;
   }
   .veg-btn {
-    background-color: #199319;
-    color: white;
+    background-color: #9eba92;
+    color: #262626;
     padding: 15px 25px;
     text-decoration: none;
   }
   .veg-btn:hover {
-    background-color: #223094;
+    background-color: #262626;
+    color: white;
   }
 }
