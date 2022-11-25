@@ -107,6 +107,8 @@ body {
     padding: 15px 25px;
     text-decoration: none;
     border: 2px solid #262626;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   .veg-btn:hover {
     background-color: #262626;
