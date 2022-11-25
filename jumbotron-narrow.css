@@ -79,7 +79,24 @@ body {
   margin-top: 28px;
   color:#262626;
 }
-
+.veg-btn {
+  background-color: #9eba92;
+  color: #262626;
+  padding: 15px;
+  text-decoration: none;
+  border: 2px solid #262626;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+.veg-btn:hover {
+  background-color: #262626;
+  color: white;
+  border: 2px solid #262626;
+}
+h1{
+  margin-left: 5px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -101,22 +118,5 @@ body {
     background-color: #9eba92;
     color:#262626;
   }
-  .veg-btn {
-    background-color: #9eba92;
-    color: #262626;
-    padding: 15px;
-    text-decoration: none;
-    border: 2px solid #262626;
-    margin: auto;
-    display: inline-block;
-    text-align: center;
-  }
-  .veg-btn:hover {
-    background-color: #262626;
-    color: white;
-    border: 2px solid #262626;
-  }
-  h1{
-    margin-left: 5px;
-  }
+  
 }
