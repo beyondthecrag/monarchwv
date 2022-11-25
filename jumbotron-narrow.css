@@ -22,7 +22,7 @@ body {
 /* Custom page header */
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #9eba92;
   color:white;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -37,7 +37,7 @@ body {
 .footer {
   padding-top: 19px;
   color: white;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #9eba92;
 }
 
 /* Customize container */
