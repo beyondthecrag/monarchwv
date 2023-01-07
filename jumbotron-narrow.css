@@ -1,11 +1,15 @@
 .welcome {
   background-color: white;
+  height: 300px;
 }
 .options {
   background-color: #9eba92;
+  height: 300px;
+  
 }
 .connect {
   background-color: white;
+  height: 300px;
 }
 .col-lg-6 {
   background-color: #9eba92;
