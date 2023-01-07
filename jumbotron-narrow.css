@@ -2,7 +2,7 @@
   background-color: white;
 }
 .options {
-  background-color: green;
+  background-color: #9eba92;
 }
 .connect {
   background-color: white;
@@ -53,7 +53,6 @@ body {
   .container {
     max-width: 730px;
     color:#262626;
-    background-color: #9eba92;
   }
 }
 .container-narrow > hr {
