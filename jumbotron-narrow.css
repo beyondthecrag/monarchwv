@@ -1,10 +1,10 @@
-#welcome {
+.welcome {
   background-color: white;
 }
-#options {
+.options {
   background-color: green;
 }
-#connect {
+.connect {
   background-color: white;
 }
 .col-lg-6 {
