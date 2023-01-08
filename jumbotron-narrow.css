@@ -1,9 +1,9 @@
 .welcome {
-  background-color: #9eba92;
+  background-color: #8ea385;
   min-height: 300px;
 }
 .options {
-  background-color: white;
+  background-color: rgb(244, 252, 223);
   min-height: 300px;
   
 }
@@ -37,15 +37,13 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-right: 15px;
-  padding-left: 15px;
+
   color:#262626;
 }
 
 /* Custom page header */
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #9eba92;
   color:#262626;
 }
 /* Make the masthead heading the same height as the navigation */
