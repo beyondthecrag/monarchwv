@@ -1,3 +1,16 @@
+
+.collapse.show{
+  background-color: #343a40;
+}
+.collapsing{
+  background-color: #343a40;
+}
+.row{
+  background-color: #343a40;
+}
+.optionscol{
+  background-color: #343a40;
+}
 .resturantbox{
 margin: 10px;
 padding: 1.5em;
