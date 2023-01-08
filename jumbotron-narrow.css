@@ -1,3 +1,14 @@
+.resturantbox{
+padding: 1.5em;
+padding-bottom: 1.5em;
+padding-bottom: 5.5em;
+display: block !important;
+border: 2px solid #ece9da !important;
+-webkit-box-shadow: 0 2.5px 8px 0 rgba(68, 68, 68, 0.1);
+box-shadow: 0 2.5px 8px 0 rgba(68, 68, 68, 0.1);
+position: relative;
+border-radius: 4px;
+}
 @media only screen and (max-width: 600px) {
   .discord{
     display: block;
