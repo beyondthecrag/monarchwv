@@ -1,0 +1,5 @@
+B1B1B1 lighter
+989898 light
+303030 dark
+4A7C5B green
+F9F9F9 white
