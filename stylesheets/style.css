@@ -1,12 +1,23 @@
 body{
     margin:0;
 }
+
+
+
 .title{
     font-size:7rem;
     color:white;
     text-shadow: 0 0 10px black;
 
 }
+@media only screen and (max-width: 900px) {
+    .title{
+        font-size:4rem;
+        color:white;
+        text-shadow: 0 0 10px black;
+    
+    }
+  }
 .event-wrapper{
     background-size: cover;
     background-position: center;
