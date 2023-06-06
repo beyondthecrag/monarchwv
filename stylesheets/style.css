@@ -64,7 +64,6 @@
   
   .header {
     display:flex;
-    flex-spacing:space-between;
     padding-bottom:10px;
     background-color: white;
   }
