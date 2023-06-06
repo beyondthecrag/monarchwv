@@ -1,207 +1,128 @@
-body{
-    margin:0;
-}
+/* You can either copy the below and paste it between style tags on your HTML page, OR you can copy this to a file and name it .css and link it from your HTML page. */
 
-
-
-.title{
-    font-size:7rem;
-    color:white;
-    text-shadow: 0 0 10px black;
-
-}
-@media only screen and (max-width: 900px) {
-    .title{
-        font-size:4rem;
-        color:white;
-        text-shadow: 0 0 10px black;
-    
-    }
+:root {
+    --font-family:"Verdana", sans-serif;
+    --font-size:x-small;
+    --sidebar-border:1px solid #E6E6C3;
+    --link-color:blue;
+    --bg-color:white;
+    --text-color:black;
+    --sidebar-bg:white;
+    --content-bg:white;
+    --content-padding:0;
+    --bg-image:url('https://sadhost.neocities.org/images/tiles/tumblr_inline_mqgagaPYfb1qz4rgp540.gif'); 
+    /* for bg image, above would be url('site.com/image.jpg'); */
   }
-.event-wrapper{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
-    padding: 2rem;
-    object-fit: cover;
-    background-color: beige;
-    /* background-image: url(../img/plag.jpeg); */
-    color: white;
-}
-.wrapper{
-    height: 100vh;
-    overflow-y:auto;
-    overflow-x: hidden;
-    perspective: 10px;
-}
-header{
-    position: relative;
+  body {
+    font-family:var(--font-family);
+    font-size:var(--font-size);
+    background-color:var(--bg-color);
+    color:var(--text-color);
+    background-image:var(--bg-image);
+  }
+  body a {
+    color:var(--link-color);
+  }
+  .left {
+    width:200px;
     display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transform-style: preserve-3d;
-    z-index: -1;
-
-}
-.background{
-    transform: translateZ(-10px) scale(2);
-}
-
-
-.foreground{
-    transform: translateZ(-5px) scale(1.5);
-}
-.background,
-.foreground{
-    position: absolute;
-    height: 100%;
-    width:100%;
-    object-fit: cover;
-    z-index: -1;
-}
-.stars{
-    position: absolute;
-    height:50px;
-    width:48px;
-    z-index: 2;
-}
-.col{
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-.event-box{
-    background-color: rgb(124, 180, 127);
-    text-align: center;
-    height: auto;
-    width: 300px;
-    justify-content: center;
-    box-shadow: 10px 10px black;
-    word-wrap: break-word;
-}
-.event-info{
-    text-align: center;
-    color:white;
-    font-size:32px;
-    margin:0;
-}
-.event-link{
-    position: relative;
-    color: white;
-    text-align: center;
-    font-size:32px;
-    margin:0;
-    z-index: 1;
-}
-.event-link:hover{
-    color:rgb(145, 189, 145);
-}
-.event-feature{
-    text-align: center;
-    color:rgb(255, 255, 255);
-    font-size:14px;
-    word-wrap: break-word;
-    margin-bottom:5px;
-}
-.upcomming{
-    color:black;
-    text-align: center;
-}
-.links-box{
-    background-color: rgb(71, 80, 60);
-    box-shadow: 10px 10px;
-    margin-bottom:50px;
-}
-.links-link{
-    position: relative;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size:72px;
-    margin:0;
-    z-index: 1;
-
-}
-.links-link:hover{
-    color:rgb(58, 58, 58);
-}
-.h1{
-    margin:5px;
-}
-.links-wrapper{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
-    padding: 2rem;
-    object-fit: cover;
-    background-color: rgb(71, 80, 60);
-    /* background-image: url(../img/plag.jpeg); */
-    color: white;
-
-}
-
-.info-wrapper{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
-    padding: 2rem;
-    object-fit: cover;
-    background-color: rgb(159, 180, 137);
-    /* background-image: url(../img/plag.jpeg); */
-    color: white;
-}
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 24px;
+    flex-wrap:wrap;
+  }
+  .box {
+    width:200px;
+    border:var(--sidebar-border);
+    margin-bottom:15px;
+    padding-bottom:10px;
+    background-color:var(--sidebar-bg);
+  }
+  .flex {
+    display:flex;
+  }
+  .container {
+    max-width:700px;
+    margin:0 auto;
+  }
+  .right {
+    margin-left:10px;
+    background-color:var(--content-bg);
+    padding:var(--content-padding);
     
   }
-  .center tr:nth-child(even){background-color: #505050;}
- .recipe-wrapper{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
-    padding: 2rem;
-    object-fit: cover;
-    background-color: beige;
-    /* background-image: url(../img/plag.jpeg); */
-    color: white;
- }
- .recipe-box{
-    background-color: rgb(124, 180, 127);
-    text-align: center;
-    height: auto;
-    width: 200px;
-    justify-content: center;
-    box-shadow: 10px 10px black;
-    word-wrap: break-word;
- }
- .recipe-title{
-    font-size: 24px;
- }
- .recipe-info{
-    text-align: center;
-    color:white;
-    font-size:32px;
-    margin:0;
- }
- .recipe-link{
-    position: relative;
-    color: white;
-    text-align: center;
-    font-size:32px;
-    margin:0;
-    z-index: 1;
- }
- .recipe-image{
-    height:128px;
-    width: 128px;
- }
+  .subtitle {
+    font-weight:bold;
+    padding-top:3px;
+    margin-bottom:5px;
+  }
+  .boxwrap {
+    padding-left:10px;
+    padding-bottom:5px;
+  }
+  .footer {
+    text-align:center;
+    background-color: white;
+  }
+  
+  .header {
+    display:flex;
+    flex-spacing:space-between;
+    padding-bottom:10px;
+    background-color: white;
+  }
+  .header-left {
+    width:60%;
+  }
+  .header-left a {
+   font-weight:bold;
+  }
+  .header-right {
+    text-align:right;
+    width:40%;
+  }
+  content {
+      display:flex;
+    margin:0 auto;
+    width:700px;
+    
+  }
+  .post .title {
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding-left:10px;
+  }
+  .post .date {
+    margin-bottom:10px;
+  }
+  .entry {
+    padding-left:10px;
+  }
+  .postFooter {
+    padding-top:10px;
+    padding-left:10px;
+  }
+  .blogring {
+    font-size:11px;
+    font-weight:bold;
+  }
+  .boxwrap img {
+    width:130px;
+    display:block;
+  }
+   @media only screen and (max-width: 730px) {
+     .flex {
+       flex-wrap:wrap;
+     }
+     .right {
+       width:100%;
+       order:1;
+     }
+     .left {
+       width:100%;
+       order:2;
+       display:flex;
+       flex-wrap:wrap;
+       align-self:center;
+       justify-content:center;
+       margin-top:20px;
+     }
+  }
